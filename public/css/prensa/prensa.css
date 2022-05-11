@@ -1,0 +1,12 @@
+.myCardTitle {
+    font-size: 25px !important;
+    color: var(--grey-darken-3) !important;
+}
+
+.card-text {
+    text-align: justify !important;
+}
+
+#cards {
+    min-height: 1000px !important;
+}

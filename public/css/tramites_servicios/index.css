@@ -1,0 +1,56 @@
+/* list items */
+
+.list-group-item:first-child {
+    border-top-left-radius: unset;
+    border-top-right-radius: unset;
+}
+
+.list-group-item {
+    color: var(--grey-darken-3);
+    background-color: var(--grey-lighten-3);
+    border: unset;
+}
+
+.list-group-item:hover {
+    color: var(--secondary_color);
+    background-color: var(--grey-lighten-1);
+    border: unset;
+}
+
+.list-group-item.active {
+    color: var(--grey-lighten-4);
+    background-color: var(--primary_color);
+}
+
+
+/* acoordion items */
+
+.accordion-button:focus {
+    box-shadow: unset !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--primary_color);
+    background-color: unset;
+    box-shadow: unset;
+}
+
+.accordion-button {
+    color: var(--grey-darken-4);
+    background-color: unset;
+    box-shadow: unset;
+}
+
+.accordion-item {
+    background-color: var(--bg_body);
+    border: unset;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: unset;
+    transform: unset;
+}
+
+.accordion-button::after {
+    background-image: unset;
+}

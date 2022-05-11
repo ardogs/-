@@ -1,0 +1,33 @@
+body {
+    background-color: #fff !important;
+}
+
+.img_presidente {
+    background-image: url('../../media/images/presidente2.jpg');
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% -108px;
+}
+
+.justify-text {
+    text-align: justify !important;
+}
+
+.card {
+    background-color: unset;
+    border: unset;
+}
+
+.zoom {
+    transition: transform .6s;
+    /* Animation */
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.bg-gris {
+    background-color: #F5F5F5;
+}
